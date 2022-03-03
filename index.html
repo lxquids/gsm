@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>GSM Service</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220303215218">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Custom Icons  -->
+	<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css?_v=20220303215218">
+
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap&_v=20220303215218" rel="stylesheet">
+
+	<!-- Meta Tags  -->
+	<link rel="icon" href="img/#">
+	<meta name="description" content="#">
+	<meta name="keywords" content="#">
+	<meta name="author" content="F12">
+
+	<!-- Meta Tags (Social Media)  -->
+	<meta property="og:locale" content="ru_RU">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="#">
+	<meta property="og:description" content="#">
+	<meta property="og:image" content="img/#">
+	<meta property="og:site_name" content="#">
+
+	<meta name="twitter:card" content="#">
+	<meta name="twitter:site" content="#">
+	<meta name="twitter:title" content="#">
+	<meta name="twitter:description" content="#">
+	<meta name="twitter:image" content="img/#">
+</head>
+
+<body>
+	<!-- Preloader  -->
+	<div class="preloader">
+		<a href=""><img src="img/loading.svg?_v=1646337138713" alt=""></a>
+	</div>
+
+	<div class="wrapper">
+		<div class="banner">
+			<p class="banner__text">
+				Мы <a href="#email">поможем</a> вам с чем угодно!
+			</p>
+		</div>
+
+		<header class="header sticky">
+			<div class="header__inner __container">
+				<a href="index.html" class="header__logo"><img src="img/logo.svg?_v=1646337138713" alt=""></a>
+				<nav class="nav">
+					<a href="#" class="nav__link">Отзывы</a>
+					<a href="#" class="nav__link">Подробности</a>
+					<a href="contacts.html" class="nav__link nav__link--contact">Контакты</a>
+				</nav>
+
+				<div class="burger__toggle" id="burger__toggle">
+					<i class="uil uil-bars"></i>
+				</div>
+			</div>
+		</header>
+
+
+		<div class="burger" id="burger">
+			<div class="burger__menu">
+				<ul class="burger__links">
+					<li><a href="#" class="burger__link">Отзывы</a></li>
+					<li><a href="#" class="burger__link">Подробности</a></li>
+					<li><a href="contacts.html" class="burger__link burger__link--blue">Контакты</a></li>
+				</ul>
+			</div>
+		</div>
+		<main class="page">
+			<section class="hero__container">
+				<div class="hero__text">
+					<h1 class="hero__title title">Проблемы с Вашим устройством?</h1>
+					<p class="hero__subtitle title">Решаем любые проблемы! Большой склад и опытные мастера.</p>
+				</div>
+				<div class="hero__links">
+					<a href="#" data-popup="support" class="hero__consultation">Бесплатная консультация</a>
+					<p class="hero__number">или <a href="#" id="numberPhone">+373(22)78-23-50</a></p>
+				</div>
+				<img class="title" src="img/hero/blur.png?_v=1646337138713" alt="">
+			</section>
+			<section class="repair">
+				<div class="repair__container">
+					<div class="repair__text">
+						<h2 class="repair__title">Частые поломки</h2>
+						<p class="repair__subtitle">Проблемы и дефекты, часто встречающиеся с мобильными телефонами.</p>
+					</div>
+					<div class="repair__cards">
+						<div class="repair__card repair__card--blue reveal">
+							<h2>Mеханические повреждения</h2>
+							<p>Pазбитое стекло на экране, треснувший корпус. Ремонт будет заключаться в замене этих элементов.</p>
+						</div>
+						<div class="repair__card reveal">
+							<h2>Oтсутствие реакции на зарядное устройство</h2>
+							<p>Возможна поломка как разъема, так и батареи (определяется в процессе диагностики).</p>
+						</div>
+						<div class="repair__card reveal">
+							<h2>Проникновение влаги</h2>
+							<p>Ситуация неприятна, поскольку может привести к выходу из строя нескольких дорогостоящих электронных компонентов.</p>
+						</div>
+						<div class="repair__card reveal">
+							<h2>Hеисправность сенсора</h2>
+							<p>Такая проблема может быть обусловлена заводским браком либо нарушением правил эксплуатации.</p>
+						</div>
+					</div>
+					<p class="repair__footer">При любых серьезных неполадках необходимо обращение в <a href="#">сервисный центр</a>: самостоятельные попытки восстановить работоспособность аппарата могут лишь усугубить ситуацию.</p>
+				</div>
+			</section>
+			<section class="email" id="email">
+
+				<!-- <img class="email__blur blur" src="img/hero/blur2.png?_v=1646337138713" alt=""> -->
+
+				<div class="email__inner __container">
+					<div class="email__left">
+						<h2 class="email__title">Свяжитесь с нами по <span>электронной почте</span></h2>
+						<p class="email__subtitle">Или позвоните нам по телефону - <a href="#">+373(22)78-23-50</a></p>
+
+						<form action="https://formsubmit.co/lxquidsquad@gmail.com" class="email__form" method="POST">
+							<input type="text" name="Имя и фамилия" required placeholder="Имя и фамилия">
+							<input type="tel" name="Мобильный телефон" required placeholder="Мобильный телефон">
+							<textarea name="Объяснения проблемы" required placeholder="Объяснения проблемы"></textarea>
+
+							<!-- Form Settings -->
+							<input type="hidden" name="_next" value="https://www.google.com/">
+							<input type="hidden" name="_template" value="box">
+							<input type="hidden" name="_captcha" value="false">
+
+							<button type="submit">Отправить<i class="uil uil-envelope-alt"></i></button>
+						</form>
+					</div>
+					<img class="email__img" src="img/hero/fire.svg?_v=1646337138713" alt="">
+				</div>
+			</section>
+			<section class="pdf">
+				<div class="pdf__inner __container">
+					<div class="pdf__text">
+						<h2 class="pdf__title">Скачать .pdf файл с ценами</h2>
+						<p class="pdf__subtitle">Или <a href="#">напишите</a> нам чтобы узнать актуальные цены.</p>
+					</div>
+					<div class="pdf__links">
+						<a href="img/files/sample.pdf" download="" class="pdf__download">Скачать <i class="uil uil-import"></i></a>
+						<a href="img/files/sample.pdf" target="_blank" class="pdf__web">Открыть на сайте</a>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__inner __container">
+				<div class="footer__text">
+					<p>Дизайнер и разработчик сайта - </p>
+					<a href="https://www.instagram.com/ftvnty/" target="_blank"><img src="img/developer.svg?_v=1646337138713" alt=""></a>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20220303215218"></script>
+
+	<!-- <script>
+    const myModal = new HystModal({
+    linkAttributeName: "data-hystmodal",
+    // настройки (не обязательно), см. API
+});
+</script> -->
+
+	<script src="https://unpkg.com/scrollreveal@4"></script>
+
+	<script>
+		var preloader = document.querySelector(".preloader")
+
+		window.addEventListener("load", vanish);
+
+		function vanish() {
+			preloader.classList.add("disppear");
+		}
+	</script>
+
+	<script>
+		ScrollReveal().reveal('.reveal', {
+			delay: 350
+		});
+		ScrollReveal().reveal('.reveal', {
+			interval: 250
+		});
+	</script>
+
+	<script>
+		ScrollReveal().reveal('.title', {
+			delay: 250
+		});
+		ScrollReveal().reveal('.title', {
+			interval: 250
+		});
+	</script>
+
+	<script>
+		ScrollReveal().reveal('.blur', {
+			delay: 250
+		});
+	</script>
+
+	<!-- Burger  -->
+
+	<script>
+		var burgerMenu = document.getElementById('burger__toggle');
+		var overlay = document.getElementById('burger');
+		burgerMenu.addEventListener('click', function() {
+			this.classList.toggle("close");
+			overlay.classList.toggle("overlay");
+		});
+	</script>
+
+	<!-- <script>
+const openMobileMenuBtn = document.querySelector(".burger__toggle");
+const headerMenu = document.querySelector(".burger");
+
+openMobileMenuBtn.addEventListener("click", () => {
+if(openMobileMenuBtn.classList.contains("overlay")) {
+    openMobileMenuBtn.classList.remove("overlay");
+    headerMenu.classList.remove("active");
+} else {
+    headerMenu.classList.add("active");
+    openMobileMenuBtn.classList.add("open");
+}
+})
+</script> -->
+</body>
+
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>GSM Service - Error</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220303215218">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Custom Icons  -->
+	<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css?_v=20220303215218">
+
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap&_v=20220303215218" rel="stylesheet">
+
+	<!-- Meta Tags  -->
+	<link rel="icon" href="img/#">
+	<meta name="description" content="#">
+	<meta name="keywords" content="#">
+	<meta name="author" content="F12">
+
+	<!-- Meta Tags (Social Media)  -->
+	<meta property="og:locale" content="ru_RU">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="#">
+	<meta property="og:description" content="#">
+	<meta property="og:image" content="img/#">
+	<meta property="og:site_name" content="#">
+
+	<meta name="twitter:card" content="#">
+	<meta name="twitter:site" content="#">
+	<meta name="twitter:title" content="#">
+	<meta name="twitter:description" content="#">
+	<meta name="twitter:image" content="img/#">
+</head>
+<meta http-equiv="refresh" content="5; url='index.html'" />
+
+<body>
+	<!-- Preloader  -->
+	<div class="preloader">
+		<a href=""><img src="img/loading.svg?_v=1646337138713" alt=""></a>
+	</div>
+
+	<div class="wrapper">
+		<main class="page">
+			<div class="error">
+				<div class="error__inner">
+					<img src="img/404.svg?_v=1646337138713" alt="404">
+					<h2>Cтраница не найдена!</h2>
+					<p>Bы будете <a href="index.html">переадресованы</a> автоматически через 5 секунду.</p>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__inner __container">
+				<div class="footer__text">
+					<p>Дизайнер и разработчик сайта - </p>
+					<a href="https://www.instagram.com/ftvnty/" target="_blank"><img src="img/developer.svg?_v=1646337138713" alt=""></a>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div class="hystmodal" id="burger" aria-hidden="true">
+		<div class="hystmodal__wrap">
+			<div class="hystmodal__window" role="dialog" aria-modal="true">
+				<button data-hystclose class="hystmodal__close">Закрыть</button>
+			</div>
+		</div>
+	</div>
+	<!-- <div class="hystmodal" id="support" aria-hidden="true">
+	<div class="hystmodal__wrap">
+		<div class="hystmodal__window" role="dialog" aria-modal="true">
+			<button data-hystclose class="hystmodal__close">Закрыть</button>
+			Сообщение
+		</div>
+	</div>
+</div> -->
+	<script src="js/app.min.js?_v=20220303215218"></script>
+
+	<!-- <script>
+    const myModal = new HystModal({
+    linkAttributeName: "data-hystmodal",
+    // настройки (не обязательно), см. API
+});
+</script> -->
+
+	<script src="https://unpkg.com/scrollreveal@4"></script>
+
+	<script>
+		var preloader = document.querySelector(".preloader")
+
+		window.addEventListener("load", vanish);
+
+		function vanish() {
+			preloader.classList.add("disppear");
+		}
+	</script>
+
+	<script>
+		ScrollReveal().reveal('.reveal', {
+			delay: 350
+		});
+		ScrollReveal().reveal('.reveal', {
+			interval: 250
+		});
+	</script>
+
+	<script>
+		ScrollReveal().reveal('.title', {
+			delay: 250
+		});
+		ScrollReveal().reveal('.title', {
+			interval: 250
+		});
+	</script>
+
+	<script>
+		ScrollReveal().reveal('.blur', {
+			delay: 250
+		});
+	</script>
+
+	<!-- Burger  -->
+
+	<script>
+		var burgerMenu = document.getElementById('burger__toggle');
+		var overlay = document.getElementById('burger');
+		burgerMenu.addEventListener('click', function() {
+			this.classList.toggle("close");
+			overlay.classList.toggle("overlay");
+		});
+	</script>
+
+	<!-- <script>
+const openMobileMenuBtn = document.querySelector(".burger__toggle");
+const headerMenu = document.querySelector(".burger");
+
+openMobileMenuBtn.addEventListener("click", () => {
+if(openMobileMenuBtn.classList.contains("overlay")) {
+    openMobileMenuBtn.classList.remove("overlay");
+    headerMenu.classList.remove("active");
+} else {
+    headerMenu.classList.add("active");
+    openMobileMenuBtn.classList.add("open");
+}
+})
+</script> -->
+</body>
+
+</html>
